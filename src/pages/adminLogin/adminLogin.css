@@ -1,0 +1,61 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://th.bing.com/th/id/R.5ef511e216c91e4340a40533a7aaa64a?rik=fsxMKpoIPW8EEg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-CYpGmuBJMwk%2fUQ5tNjNRj3I%2fAAAAAAAAGs8%2fUmp2D4sLcG0%2fs1600%2fwallpaper-2069764.jpg&ehk=hW48H6ENYIx%2buxtIH0bzyYD5wujuKmLaRkLQ8rfHE80%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+  }
+  
+  .loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  
+  .loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #F1A408;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .loginButton:disabled{
+    cursor: not-allowed;
+    background-color: #F1A408;
+  }
+  
+  .loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #F1A408;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+  
