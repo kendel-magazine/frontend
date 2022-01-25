@@ -9,23 +9,23 @@ export default function Home() {
       <div className="container position-relative" data-aos="fade-up" data-aos-delay="100">
         <div className="row justify-content-center">
           <div className="col-xl-8">
-            <h1>Welcome !</h1>
+            <h1 className="d-sm-none d-md-block" style={{"fontSize":"420%"}}>Welcome !</h1>
             <p>እንኳን ደህና መጡ !</p>
             <h2>ቅንድል ዲጂታል መፅሔት</h2>
-            <Link to="/megazines" className="btn-get-started " style={{"fontWeight":"bolder","fontSize":"35px"}}>ለመቀጠል ይጫኑ!</Link>
+            <Link to="/megazines" className="btn-get-started " style={{"fontWeight":"bolder","fontSize":"100%"}}>ለመቀጠል ይጫኑ!</Link>
           </div>
         </div>
       </div>
     </section>
   
-    <main id="main" style={{"backgroundColor":"#263238","fontSize":"16px"}}>
+    <main id="main" style={{"backgroundColor":"#263238","fontSize":"100%"}}>
       <section className="why-us section-bg" data-aos="fade-up" date-aos-delay="200" style={{"backgroundColor":"#263238","color":"white"}}>
         <div className="container" style={{"backgroundColor":"#263238","color":"white"}}>
   
           <div className="row" style={{"backgroundColor":"#263238"}}>
             <div className="col-lg-6 video-box">
               <img src="assets/img/kendel.jpg" className="img-fluid" alt=""/>
-              <Link to="https://www.youtube.com/channel/UCMvSL9y2zS3KGmUfXEgSM_w" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></Link>
+              <Link onClick={()=>window.open("https://www.youtube.com/channel/UCMvSL9y2zS3KGmUfXEgSM_w","_blank")} className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></Link>
             </div>
   
             <div className="col-lg-6 d-flex flex-column justify-content-center p-5" style={{"backgroundColor":"#263238","color":"white"}}>
@@ -40,7 +40,9 @@ export default function Home() {
               <div className="icon-box">
                 <div className="icon" style={{"background":"#F1A408"}}><i className="bx bx-gift" style={{"color":"white"}}></i></div>
                 <h4 className="title"><Link to="" style={{"color":"white","fontSize":"16px"}}>ስለ እኛ</Link></h4>
-                <p className="description" style={{"color":"white","fontSize":"14px"}}>የመፅሔቱ ስያሜ ‹‹ቅን - ድል›› ከሚሉ እራሳቸውን ችለው ትርጉም ከሚሰጡ የተለያዩ ቃላት የተጣመረ ሲሆን ይህም ስያሜ ጥልቅ ትርጉም ይዞ የሀገራችንን ባህል እንድንጠብቅ ታስቦ የተሰየመ ነው፡፡ ይህውም ‹‹ቅን›› የሚለው ቃል በጎ ፣ መልካም ፣ ጥሩ  የሚል ተቀራራቢ ፍቺ ሲኖረው ‹‹ድል›› የሚለው ቃል ማሸነፍን ፣  ብርታትን ፣ ስኬትን ፣የሚያመለክት ፍቺ አለው፡፡ በመሆኑም እነዚህን ሁለት ቃላት በማጣመር ‹‹ ቅን-ድል›› የሚል  አንድ ጥምር ቃል ተሰጥቶታል፡፡</p>
+                <p className="description" style={{"color":"white","fontSize":"14px"}}>በዚህ የዲጂታል ዓለም ሰዎች እንደ ቀደሞው ግዜ እውቀትን፣ ምክንያታዊነትን እና ንቃትን ለመመርመር የግድ የቤተ -መጽሐፍትን በር ማንኳኳት አይጠበቅባቸውም ምክንያቱም ዛሬ ላይ የተለያዩ የቴክኖሎጂ ውጤቶች የሰውን ልጅ እውቀት፣ ምክንያታዊነት እና ብስለት የሚጨምሩ ከፍ ሲልም አዲስ የፈጠራ ችሎታን የሚያዳብሩ መጣጥፎችን በቀላሉ ማድረስ እንዲችሉ ተደርገው ተሰርተዋል፡፡ በዚህም ቅንድል ዲጂታል መጽሔት እስከዛሬ ካሉት የመጽሄት አይነቶች በአይነቱ ለየት በማለት በማህበራዊ ሚድያ፣ በዌብሳይት እና በሞባይል መተግበርያ  ሰዎች በየትኛውም ጊዜና ቦታ ሆነው በዲጂታል ቴክኖሎጂ በመታገዝ በቀላሉ መረጃ እንዲያገኙ እና የንባብ ባህላቸውን እንዲያዳብሩ በበሰሉ ብዕረኞች የምትዘጋጅ በማህበራዊ፣ ሀገራዊ፣ ስነ-ልቦናዊ፣ ቴክኖሎጂ፣ ባህል፣  ጥበብና ጤና ነክ ጉዳዮች ዙሪያ የሚያተኩር ዲጂታል መፅሔት ነው፡፡
+
+ቅንነትን ፣ ምክንያታዊነትን እና ሀገር ፍቅርን ከፍ ባለ ድምፅ እንሰብካለን፡፡</p>
               </div>
   
             </div>

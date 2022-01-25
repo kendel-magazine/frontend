@@ -52,10 +52,10 @@ class Footer extends React.Component{
                 <p>ቅንድል መፅሔት በ Esquare advertising ታትሞ በፌስቡክ እና በቴሌግራም በወር አንዴ የሚወጣ አዝናኝና አስተማሪ  የአማርኛ ዲጂታል መፅሔት ነው!!!
                   ✔️ቅንነትን፣መልካምነትን፣በጎነትን፣ ምክንያታዊነትን እንሰብካለን!!    </p>
                 <div className="social-links mt-3">
-                  {/* <Link to="#" className="twitter"><i className="bx bxl-twitter"></i></Link> */}
-                  <Link to="http://m.facebook.com/kdigitalmagazine" className="facebook"><i className="bx bxl-facebook"></i></Link>
-                  {/* <Link to="#" className="instagram"><i className="bx bxl-instagram"></i></Link> */}
-                  {/* <Link to="#" className="linkedin"><i className="bx bxl-linkedin"></i></Link> */}
+                  <Link onClick={()=>window.open("https://www.youtube.com/channel/UCMvSL9y2zS3KGmUfXEgSM_w","_blank")} className="twitter"><i className="bx bxl-youtube"></i></Link>
+                  <Link onClick={()=>window.open("http://m.facebook.com/kdigitalmagazine","_blank")} className="facebook"><i className="bx bxl-facebook"></i></Link>
+                  <Link onClick={()=>window.open("https://t.me/KenDelM","_blank")} className="instagram"><i className="bx bxl-telegram"></i></Link>
+                  <Link onClick={()=>window.open("https://www.linkedin.com/in/kendel-digital-magazine-24171b229/","_blank")} className="linkedin"><i className="bx bxl-linkedin"></i></Link>
                 </div>
               </div>
     

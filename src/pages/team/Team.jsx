@@ -23,7 +23,7 @@ export default function Team(){
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div className="member">
                                         <div className="member-img">
-                                            <img src="assets/img/team/team-1.jpg" className="img-fluid" alt="" />
+                                            <img src="assets/img/team/team-1.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
                                                 <a href="http://www.facebook.com/fikerwynes.simat"><i className="bi bi-facebook"></i></a>
@@ -41,8 +41,8 @@ export default function Team(){
 
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/team-2.jpg" className="img-fluid" alt="" />
+                                        <div className="member-img" style={{height:"51%"}}>
+                                            <img src="assets/img/team/team-2.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
                                                 <a href="http://www.facebook.com/ylemma1"><i className="bi bi-facebook"></i></a>
@@ -60,8 +60,8 @@ export default function Team(){
 
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/team-3.jpg" className="img-fluid" alt="" />
+                                        <div className="member-img" style={{height:"51%"}}>
+                                            <img src="assets/img/team/team-3.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
                                                 <a href=" http://www.facebook.com/lijyoha.H"><i className="bi bi-facebook"></i></a>
@@ -79,8 +79,8 @@ export default function Team(){
 
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/team-4.jpg" className="img-fluid" alt="" />
+                                        <div className="member-img" style={{height:"57%"}}>
+                                            <img src="assets/img/team/team-4.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
                                                 <a href="http://www.facebook.com/mebrek.wondifraw"><i className="bi bi-facebook"></i></a>
@@ -98,8 +98,8 @@ export default function Team(){
 
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/team-5.jpg" className="img-fluid" alt="" />
+                                        <div className="member-img" style={{height:"57%"}}>
+                                            <img src="assets/img/team/team-5.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
                                                 <a href="http://www.facebook.com/Sasibgs"><i className="bi bi-facebook"></i></a>
@@ -117,8 +117,8 @@ export default function Team(){
 
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/team-6.jpg" className="img-fluid" alt="" />
+                                        <div className="member-img" style={{height:"57%"}}>
+                                            <img src="assets/img/team/team-6.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
                                                 <a href="http://www.facebook.com/entisar.abubeker"><i className="bi bi-facebook"></i></a>
@@ -136,8 +136,8 @@ export default function Team(){
 
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/team-7.jpg" className="img-fluid" alt="" />
+                                        <div className="member-img" style={{height:"57%"}}>
+                                            <img src="assets/img/team/team-7.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
                                                 <a href="http://www.facebook.com/dagim.mesfin.311"><i className="bi bi-facebook"></i></a>
@@ -154,8 +154,8 @@ export default function Team(){
                                 </div>
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/team-8.jpg" className="img-fluid" alt="" />
+                                        <div className="member-img" style={{height:"57%"}}>
+                                            <img src="assets/img/team/team-8.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 <a href=""><i className="bi bi-twitter"></i></a>
                                                 <a href="http://www.facebook.com/tinsae.awel"><i className="bi bi-facebook"></i></a>
@@ -172,8 +172,8 @@ export default function Team(){
                                 </div>
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/team-9.jpg" className="img-fluid" alt="" />
+                                        <div className="member-img" style={{height:"57%"}}>
+                                            <img src="assets/img/team/team-9.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
                                                 <a href="http://www.facebook.com/Awicha.Awi"><i className="bi bi-facebook"></i></a>
@@ -190,8 +190,8 @@ export default function Team(){
                                 </div>
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                     <div className="member">
-                                        <div className="member-img">
-                                            <img src="assets/img/team/team-10.jpg" className="img-fluid" alt="" />
+                                        <div className="member-img" style={{height:"57%"}}>
+                                            <img src="assets/img/team/team-10.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
                                                 <a href="http://www.facebook.com/ermiyas.dejene.73"><i className="bi bi-facebook"></i></a>

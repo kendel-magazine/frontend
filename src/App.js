@@ -80,7 +80,6 @@ const requireLogin = (to, from, next) => {
 };
 function App() {
 
-
   const { user } = useContext(Context);
   // var role;
   // if (user.role){

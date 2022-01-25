@@ -62,6 +62,9 @@ export default function TopBar() {
                 <li><Link to="/posts" style={{ "hover": "#263238","backgroundColor": "#263238" }}>
                   POSTS
                 </Link></li>
+                <li><Link to="/team" style={{ "hover": "#263238","backgroundColor": "#263238" }} className="mr-3">
+                  Team
+                </Link></li>
                 <li><Link to="/contact" style={{ "hover": "#263238","backgroundColor": "#263238" }} className="mr-3">
                   CONTACT
                 </Link></li>
