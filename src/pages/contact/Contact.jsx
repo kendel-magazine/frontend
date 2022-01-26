@@ -41,7 +41,7 @@ export default function Contact(){
                                     <div className="info-box">
                                         <i className="bx bx-phone-call" style={{"color":"#F1A408"}}></i>
                                         <h3 style={{"color":"white"}}>Call Us</h3>
-                                        <p style={{"color":"white"}}>(+251)912178520<br />(+251)924140293<br/>(+251)920019699</p>
+                                        <p style={{"color":"white"}}>(+251)912178520<br />(+251)924140293</p>
                                     </div>
                                 </div>
                             </div>

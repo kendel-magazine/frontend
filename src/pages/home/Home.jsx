@@ -9,8 +9,8 @@ export default function Home() {
       <div className="container position-relative" data-aos="fade-up" data-aos-delay="100">
         <div className="row justify-content-center">
           <div className="col-xl-8">
-            <h1 className="d-sm-none d-md-block" style={{"fontSize":"420%"}}>Welcome !</h1>
-            <p>እንኳን ደህና መጡ !</p>
+            <h1 className="d-sm-none d-md-block" style={{"fontSize":"350%"}}>Welcome !</h1>
+            <p style={{"fontSize":"190%"}}>እንኳን ደህና መጡ !</p>
             <h2>ቅንድል ዲጂታል መፅሔት</h2>
             <Link to="/megazines" className="btn-get-started " style={{"fontWeight":"bolder","fontSize":"100%"}}>ለመቀጠል ይጫኑ!</Link>
           </div>

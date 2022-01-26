@@ -26,9 +26,9 @@ export default function Team(){
                                             <img src="assets/img/team/team-1.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
-                                                <a href="http://www.facebook.com/fikerwynes.simat"><i className="bi bi-facebook"></i></a>
-                                                {/* <a href=""><i className="bi bi-instagram"></i></a>
-                                                <a href=""><i className="bi bi-linkedin"></i></a> */}
+                                                <a onClick={()=>window.open("http://www.facebook.com/fikerwynes.simat","_blank")}><i className="bi bi-facebook"></i></a>
+                                                {/* <a href=""><i className="bi bi-mail"></i></a>  */}
+                                                <a onClick={()=>window.open("https://t.me/mistretigist","_blank")}><i className="bi bi-telegram"></i></a> 
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -45,9 +45,9 @@ export default function Team(){
                                             <img src="assets/img/team/team-2.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
-                                                <a href="http://www.facebook.com/ylemma1"><i className="bi bi-facebook"></i></a>
-                                                {/* <a href=""><i className="bi bi-instagram"></i></a>
-                                                <a href=""><i className="bi bi-linkedin"></i></a> */}
+                                                <a onClick={()=>{window.open("http://www.facebook.com/ylemma1","_blank")}}><i className="bi bi-facebook"></i></a>
+                                                {/* {/* <a href=""><i className="bi bi-instagram"></i></a> */}
+                                                <a onClick={()=>window.open("https://t.me/Yared4444","_blank")}><i className="bi bi-telegram"></i></a> 
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -64,8 +64,8 @@ export default function Team(){
                                             <img src="assets/img/team/team-3.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
-                                                <a href=" http://www.facebook.com/lijyoha.H"><i className="bi bi-facebook"></i></a>
-                                                {/* <a href=""><i className="bi bi-instagram"></i></a> */}
+                                                <a onClick={()=>window.open(" http://www.facebook.com/lijyoha.H","_blank")}><i className="bi bi-facebook"></i></a>
+                                                <a onClick={()=>window.open("https://t.me/Yonas_H","_blank")}><i className="bi bi-telegram"></i></a>
                                                 {/* <a href=""><i className="bi bi-linkedin"></i></a> */}
                                             </div>
                                         </div>
@@ -83,9 +83,9 @@ export default function Team(){
                                             <img src="assets/img/team/team-4.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
-                                                <a href="http://www.facebook.com/mebrek.wondifraw"><i className="bi bi-facebook"></i></a>
-                                                {/* <a href=""><i className="bi bi-instagram"></i></a>
-                                                <a href=""><i className="bi bi-linkedin"></i></a> */}
+                                                <a onClick={()=>window.open("http://www.facebook.com/mebrek.wondifraw","_blank")}><i className="bi bi-facebook"></i></a>
+                                                {/* {/* <a href=""><i className="bi bi-instagram"></i></a> */}
+                                                <a onClick={()=>window.open("https://t.me/Dasolo","_blank")}><i className="bi bi-telegram"></i></a> 
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -101,10 +101,10 @@ export default function Team(){
                                         <div className="member-img" style={{height:"57%"}}>
                                             <img src="assets/img/team/team-5.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
-                                                {/* <a href=""><i className="bi bi-twitter"></i></a> */}
-                                                <a href="http://www.facebook.com/Sasibgs"><i className="bi bi-facebook"></i></a>
-                                                <a href="https://www.instagram.com/sassybgs/"><i className="bi bi-instagram"></i></a>
-                                                <a href="https://www.linkedin.com/in/betselot-getnet-2423561aa/"><i className="bi bi-linkedin"></i></a>
+                                                <a onClick={()=>window.open("https://t.me/sassy_bgs","_blank")}><i className="bi bi-telegram"></i></a>
+                                                <a onClick={()=>window.open("http://www.facebook.com/Sasibgs","_blank")}><i className="bi bi-facebook"></i></a>
+                                                <a onClick={()=>window.open("https://www.instagram.com/sassybgs/","_blank")}><i className="bi bi-instagram"></i></a>
+                                                <a onClick={()=>window.open("https://www.linkedin.com/in/betselot-getnet-2423561aa/","_blank")}><i className="bi bi-linkedin"></i></a>
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -121,9 +121,9 @@ export default function Team(){
                                             <img src="assets/img/team/team-6.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
-                                                <a href="http://www.facebook.com/entisar.abubeker"><i className="bi bi-facebook"></i></a>
-                                                {/* <a href=""><i className="bi bi-instagram"></i></a>
-                                                <a href=""><i className="bi bi-linkedin"></i></a> */}
+                                                <a onClick={()=>window.open("http://www.facebook.com/entisar.abubeker","_blank")}><i className="bi bi-facebook"></i></a>
+                                                {/* {/* <a href=""><i className="bi bi-instagram"></i></a> */}
+                                                <a onClick={()=>window.open("https://t.me/entisar13","_blank")}><i className="bi bi-telegram"></i></a>
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -140,9 +140,9 @@ export default function Team(){
                                             <img src="assets/img/team/team-7.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
-                                                <a href="http://www.facebook.com/dagim.mesfin.311"><i className="bi bi-facebook"></i></a>
-                                                {/* <a href=""><i className="bi bi-instagram"></i></a>
-                                                <a href=""><i className="bi bi-linkedin"></i></a> */}
+                                                <a onClick={()=>window.open("http://www.facebook.com/dagim.mesfin.311","_blank")}><i className="bi bi-facebook"></i></a>
+                                                {/* {/* <a href=""><i className="bi bi-instagram"></i></a> */}
+                                                <a onClick={()=>window.open("https://t.me/forgiven247","_blank")}><i className="bi bi-telegram"></i></a>
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -157,10 +157,10 @@ export default function Team(){
                                         <div className="member-img" style={{height:"57%"}}>
                                             <img src="assets/img/team/team-8.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
-                                                <a href=""><i className="bi bi-twitter"></i></a>
-                                                <a href="http://www.facebook.com/tinsae.awel"><i className="bi bi-facebook"></i></a>
-                                                {/* <a href=""><i className="bi bi-instagram"></i></a>
-                                                <a href=""><i className="bi bi-linkedin"></i></a> */}
+                                                {/* <a href=""><i className="bi bi-twitter"></i></a> */}
+                                                <a onClick={()=>window.open("http://www.facebook.com/tinsae.awel","_blank")}><i className="bi bi-facebook"></i></a>
+                                                {/* {/* <a href=""><i className="bi bi-instagram"></i></a> */}
+                                                <a onClick={()=>window.open("https://t.me/EsruMH","_blank")}><i className="bi bi-telegram"></i></a> 
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -176,9 +176,9 @@ export default function Team(){
                                             <img src="assets/img/team/team-9.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
-                                                <a href="http://www.facebook.com/Awicha.Awi"><i className="bi bi-facebook"></i></a>
-                                                {/* <a href=""><i className="bi bi-instagram"></i></a>
-                                                <a href=""><i className="bi bi-linkedin"></i></a> */}
+                                                <a onClick={()=>window.open("http://www.facebook.com/Awicha.Awi","_blank")}><i className="bi bi-facebook"></i></a>
+                                                {/* {/* <a href=""><i className="bi bi-instagram"></i></a> */}
+                                                <a onClick={()=>window.open("https://t.me/Awicha12","_blank")}><i className="bi bi-telegram"></i></a> 
                                             </div>
                                         </div>
                                         <div className="member-info">
@@ -194,9 +194,9 @@ export default function Team(){
                                             <img src="assets/img/team/team-10.jpg" style={{width:"100%"}} alt="" />
                                             <div className="social">
                                                 {/* <a href=""><i className="bi bi-twitter"></i></a> */}
-                                                <a href="http://www.facebook.com/ermiyas.dejene.73"><i className="bi bi-facebook"></i></a>
-                                                {/* <a href=""><i className="bi bi-instagram"></i></a>
-                                                <a href=""><i className="bi bi-linkedin"></i></a> */}
+                                                <a onClick={()=>window.open("http://www.facebook.com/ermiyas.dejene.73","_blank")}><i className="bi bi-facebook"></i></a>
+                                                {/* {/* <a href=""><i className="bi bi-instagram"></i></a> */}
+                                                <a onClick={()=>window.open("https://t.me/jeremy00","_blank")}><i className="bi bi-telegram"></i></a>
                                             </div>
                                         </div>
                                         <div className="member-info">

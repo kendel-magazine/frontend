@@ -12,6 +12,33 @@ export default function TopBar() {
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
   };
+  var myNav = document.getElementById("nav");
+
+  window.onscroll = function() {
+    "use strict";
+    if (document.body.scrollTop >= 1 || document.documentElement.scrollTop >= 1) {
+      // myNav.classList.add("scroll");
+      var nav = document.getElementById("nav"); 
+       nav.style.background = "#263238";
+    } else {
+      var nav = document.getElementById("nav");
+      // myNav.classList.remove("scroll");
+      nav.style.background = "transparent";
+      // nav.css("background","transparent");
+    }
+  };
+  // $(document).ready(function(){
+  //   $(window).scroll(function(){
+  //     var scroll = $(window).scrollTop();
+  //     if (scroll > 300) {
+  //       $(".black").css("background" , "blue");
+  //     }
+  
+  //     else{
+  //       $(".black").css("background" , "#333");  	
+  //     }
+  //   })
+  // })
   return (
     <div>
       <div style={{ "backgroundColor": "black" }}>
@@ -36,9 +63,9 @@ export default function TopBar() {
           </div>
         </div>
       </div> */}
-        <nav class="navbar navbar-fixed-top navigation" style={{ "backgroundColor": "#263238" }}>
+        <nav id="nav" class="navbar navbar-fixed-top navigation main-nav" style={{ "backgroundColor": "transparent","color":"#F1A408" }}>
           <div class="container">
-            <div class="navbar-header" style={{ "backgroundColor": "#263238" }}>
+            <div  class="navbar-header main-nav" style={{ "backgroundColor": "transparent","color":"#F1A408" }}>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -50,27 +77,27 @@ export default function TopBar() {
             </Link> */}
             </div>
 
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div id="nav" class="collapse navbar-collapse navbar-ex1-collapse main-nav">
               {/* <img src="../../"/> */}
-              <ul class="nav navbar-nav navbar-right menu" style={{ "display": "inline","backgroundColor": "#263238" }}>
+              <ul class="nav navbar-nav navbar-right menu" style={{ "display": "inline","backgroundColor": "transparent" }}>
               {/* <li><img src="../../public/images/logo.png"/></li> */}
-                <li><Link to="/" style={{ "hover": "#263238","backgroundColor": "#263238" }}>Home</Link></li>
+                <li><Link to="/" style={{ "hover": "#263238","backgroundColor": "transparent","color":"#F1A408" }}>Home</Link></li>
                 {/* <li><a href="services.html">Service</a></li> */}
-                <li> <Link to="/megazines" style={{ "hover": "#263238","backgroundColor": "#263238" }}>
+                <li> <Link to="/megazines" style={{ "hover": "#263238","backgroundColor": "transparent" ,"color":"#F1A408"}}>
                   MEGAZINES
                 </Link></li>
-                <li><Link to="/posts" style={{ "hover": "#263238","backgroundColor": "#263238" }}>
+                <li><Link to="/posts" style={{ "hover": "#263238","backgroundColor": "transparent","color":"#F1A408" }}>
                   POSTS
                 </Link></li>
-                <li><Link to="/team" style={{ "hover": "#263238","backgroundColor": "#263238" }} className="mr-3">
+                <li><Link to="/team" style={{ "hover": "#263238","backgroundColor": "transparent","color":"#F1A408" }} className="mr-3">
                   Team
                 </Link></li>
-                <li><Link to="/contact" style={{ "hover": "#263238","backgroundColor": "#263238" }} className="mr-3">
+                <li><Link to="/contact" style={{ "hover": "#263238","backgroundColor": "transparent","color":"#F1A408" }} className="mr-3">
                   CONTACT
                 </Link></li>
                 <li>
                 {user && 
-                <button onClick={handleLogout} style={{ "hover": "#263238","backgroundColor": "#263238" }} className="btn btn-warning mt-3 mx-lg-5">LOGOUT</button> }
+                <button onClick={handleLogout} style={{ "hover": "#263238","backgroundColor": "transparent","color":"#F1A408" }} className="btn btn-warning mt-3 mx-lg-5">LOGOUT</button> }
                   
                 </li>
                 {user ? (

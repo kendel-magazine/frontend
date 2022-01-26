@@ -65,6 +65,8 @@ class Footer extends React.Component{
     
         <div className="container">
           <div className="copyright">
+          Developed By: <a onClick={()=>window.open("https://www.linkedin.com/in/betselot-getnet-2423561aa/","_blank")}>Betselot Getnet</a><br/>
+
             &copy; Copyright <strong><span>ቅንድል ዲጂታል መፅሔት</span></strong>. All Rights Reserved
           </div>
         </div>
