@@ -1,7 +1,37 @@
 import "./contact.css";
 import { Link } from "react-router-dom";
+import React, { useRef,useState } from 'react';
+import emailjs from '@emailjs/browser';
+
+const Result = ()=>{
+    return(
+        <div style={{"alignElements":"center","paddingTop":"5%"}}>Your message has been sent. Thank you!</div>
+        )
+}
 
 export default function Contact(){
+    const form = useRef();
+    const [result,showResult] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_kgb6eud', 'template_wqzyb4j', form.current, 'user_eBZbNKqhsZr6oqJwbor0t')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+      showResult(true);
+  };
+
+  //hide result...
+
+  setTimeout(()=>{
+      showResult(false);
+  },5000);
     return(
         <div>
         <main id="main" style={{"backgroundColor":"#263238","color":"white"}}>
@@ -49,7 +79,7 @@ export default function Contact(){
                         </div>
 
                         <div className="col-lg-6">
-                            <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+                            <form ref={form} role="form" className="php-email-form" onSubmit={sendEmail}>
                                 <div className="row">
                                     <div className="col-md-6 form-group">
                                         <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
@@ -70,6 +100,7 @@ export default function Contact(){
                                     <div className="sent-message">Your message has been sent. Thank you!</div>
                                 </div>
                                 <div className="text-center"><button type="submit">Send Message</button></div>
+                                <div className="row">{result ? <Result/> : null}</div>
                             </form>
                         </div>
 
