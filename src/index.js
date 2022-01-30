@@ -4,8 +4,8 @@ import App from "./App";
 import { ContextProvider } from "./context/Context";
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:4000/';
-// axios.defaults.baseURL = 'http://localhost:4000/api';
+// axios.defaults.baseURL = 'http://localhost:4000/';
+axios.defaults.baseURL = 'http://localhost:4000/api';
 
 ReactDOM.render(
   <React.StrictMode>
