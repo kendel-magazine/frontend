@@ -27,7 +27,7 @@ export default function Login() {
 
   return (
     <Container fluid style={{"background":"#263238"}}>
-      <div className="login" style={{"color":"#F1A408","margin":"50%"}}>
+      <div className="login" style={{"color":"#F1A408","padding":"20%","background":"#263238"}}>
       <span className="loginTitle m-5 p-5">Login</span>
       <form className="loginForm" onSubmit={handleSubmit}>
         <label>Username</label>

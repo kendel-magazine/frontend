@@ -112,19 +112,19 @@ export default function TopBar() {
                 ) : (
                   // <ul className="topList">
 
-                  <ul>
-                    <li>
+                  <div style={{"display":"inline-block"}}>
+                    <li style={{"display":"inline-block"}}>
                       <Link to="/login" >
-                        <button style={{ "hover": "#263238","backgroundColor": "#263238" }} className="btn btn-warning">LOGIN</button>
+                        <button style={{ "hover": "#263238","backgroundColor": "#263238","display":"inline-block" }} className="btn btn-warning">LOGIN</button>
                         
                       </Link>
                     </li>
-                    <li>
+                    <li style={{"display":"inline-block"}}>
                       <Link to="/register">
-                      <button style={{ "hover": "#263238","backgroundColor": "#263238" }} className="btn btn-warning">REGISTER</button>
+                      <button style={{ "hover": "#263238","backgroundColor": "#263238","display":"inline-block" }} className="btn btn-warning">REGISTER</button>
                       </Link>
                     </li>
-                  </ul>
+                  </div>
                 )}
 
               </ul>

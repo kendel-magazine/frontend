@@ -26,7 +26,7 @@ export default function Register() {
   };
   return (
     <Container fluid style={{"backgroundColor":"#263238"}}>
- <div className="register " style={{"color":"#F1A408","margin":"60%"}}>
+ <div className="register " style={{"color":"#F1A408","margin":"19%"}}>
       <span className="registerTitle m-5 p-5">Register</span>
       <form className="registerForm" onSubmit={handleSubmit}>
         <label>Username</label>
