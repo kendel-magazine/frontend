@@ -3,6 +3,8 @@ import { useContext, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import "./login.css";
+import "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 export default function Login() {
   const userRef = useRef();
@@ -24,7 +26,8 @@ export default function Login() {
   };
 
   return (
-    <div className="login" style={{"backgroundColor":"#263238","color":"#F1A408"}}>
+    <Container fluid style={{"background":"#263238"}}>
+      <div className="login" style={{"color":"#F1A408","margin":"50%"}}>
       <span className="loginTitle m-5 p-5">Login</span>
       <form className="loginForm" onSubmit={handleSubmit}>
         <label>Username</label>
@@ -45,11 +48,12 @@ export default function Login() {
           Login
         </button>
       </form>
-      <button className="loginRegisterButton">
+      {/* <button className="loginRegisterButton">
         <Link className="link" to="/register">
           Register
         </Link>
-      </button>
+      </button> */}
     </div>
+    </Container>
   );
 }

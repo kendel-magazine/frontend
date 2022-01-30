@@ -14,19 +14,19 @@ export default function TopBar() {
   };
   var myNav = document.getElementById("nav");
 
-  window.onscroll = function() {
-    "use strict";
-    if (document.body.scrollTop >= 1 || document.documentElement.scrollTop >= 1) {
-      // myNav.classList.add("scroll");
-      var nav = document.getElementById("nav"); 
-       nav.style.background = "#263238";
-    } else {
-      var nav = document.getElementById("nav");
-      // myNav.classList.remove("scroll");
-      nav.style.background = "transparent";
-      // nav.css("background","transparent");
-    }
-  };
+  // window.onscroll = function() {
+  //   "use strict";
+  //   if (document.body.scrollTop >= 1 || document.documentElement.scrollTop >= 1) {
+  //     // myNav.classList.add("scroll");
+  //     var nav = document.getElementById("nav"); 
+  //      nav.style.background = "#263238";
+  //   } else {
+  //     var nav = document.getElementById("nav");
+  //     // myNav.classList.remove("scroll");
+  //     nav.style.background = "transparent";
+  //     // nav.css("background","transparent");
+  //   }
+  // };
   // $(document).ready(function(){
   //   $(window).scroll(function(){
   //     var scroll = $(window).scrollTop();
@@ -63,22 +63,28 @@ export default function TopBar() {
           </div>
         </div>
       </div> */}
-        <nav id="nav" class="navbar navbar-fixed-top navigation main-nav" style={{ "backgroundColor": "transparent","color":"#F1A408" }}>
+        <nav id="nav" class="navbar navbar-fixed-top navigation main-nav" style={{ "background": "#263238","color":"#F1A408" }}>
+        {/* <Link class="navbar-brand logo" to="/">
+              <img src="images/logo.png" alt="logo" style={{"width":"150px"}}/>
+            </Link> */}
           <div class="container">
-            <div  class="navbar-header main-nav" style={{ "backgroundColor": "transparent","color":"#F1A408" }}>
+          
+            <div  class="navbar-header main-nav">
+           
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              
                 <span class="sr-only">Toggle navigation</span>
+
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              {/* <Link class="navbar-brand logo" to="/" style={{"display":"left"}}>
-              <img src="D:\duplicate Kendel\kendelM\client\public\images\logo.png" alt="" />
-            </Link> */}
+              
             </div>
 
             <div id="nav" class="collapse navbar-collapse navbar-ex1-collapse main-nav">
               {/* <img src="../../"/> */}
+              
               <ul class="nav navbar-nav navbar-right menu" style={{ "display": "inline","backgroundColor": "transparent" }}>
               {/* <li><img src="../../public/images/logo.png"/></li> */}
                 <li><Link to="/" style={{ "hover": "#263238","backgroundColor": "transparent","color":"#F1A408","fontWeight":"bolder","fontSize":"16px" }}>Home</Link></li>

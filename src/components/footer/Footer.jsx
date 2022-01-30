@@ -49,8 +49,9 @@ class Footer extends React.Component{
     
               <div className="col-lg-4 col-md-6 footer-info">
                 <h3>About ቅንድል ዲጂታል መፅሔት</h3>
-                <p>ቅንድል መፅሔት በ Esquare advertising ታትሞ በፌስቡክ እና በቴሌግራም በወር አንዴ የሚወጣ አዝናኝና አስተማሪ  የአማርኛ ዲጂታል መፅሔት ነው!!!
-                  ✔️ቅንነትን፣መልካምነትን፣በጎነትን፣ ምክንያታዊነትን እንሰብካለን!!    </p>
+                <p>በዚህ የዲጂታል ዓለም ሰዎች እንደ ቀደሞው ግዜ እውቀትን፣ ምክንያታዊነትን እና ንቃትን ለመመርመር የግድ የቤተ -መጽሐፍትን በር ማንኳኳት አይጠበቅባቸውም ምክንያቱም ዛሬ ላይ የተለያዩ የቴክኖሎጂ ውጤቶች የሰውን ልጅ እውቀት፣ ምክንያታዊነት እና ብስለት የሚጨምሩ ከፍ ሲልም አዲስ የፈጠራ ችሎታን የሚያዳብሩ መጣጥፎችን በቀላሉ ማድረስ እንዲችሉ ተደርገው ተሰርተዋል፡፡ በዚህም ቅንድል ዲጂታል መጽሔት እስከዛሬ ካሉት የመጽሄት አይነቶች በአይነቱ ለየት በማለት በማህበራዊ ሚድያ፣ በዌብሳይት እና በሞባይል መተግበርያ  ሰዎች በየትኛውም ጊዜና ቦታ ሆነው በዲጂታል ቴክኖሎጂ በመታገዝ በቀላሉ መረጃ እንዲያገኙ እና የንባብ ባህላቸውን እንዲያዳብሩ በበሰሉ ብዕረኞች የምትዘጋጅ በማህበራዊ፣ ሀገራዊ፣ ስነ-ልቦናዊ፣ ቴክኖሎጂ፣ ባህል፣  ጥበብና ጤና ነክ ጉዳዮች ዙሪያ የሚያተኩር ዲጂታል መፅሔት ነው፡፡
+
+ቅንነትን ፣ ምክንያታዊነትን እና ሀገር ፍቅርን ከፍ ባለ ድምፅ እንሰብካለን፡፡   </p>
                 <div className="social-links mt-3">
                   <Link onClick={()=>window.open("https://www.youtube.com/channel/UCMvSL9y2zS3KGmUfXEgSM_w","_blank")} className="twitter"><i className="bx bxl-youtube"></i></Link>
                   <Link onClick={()=>window.open("http://m.facebook.com/kdigitalmagazine","_blank")} className="facebook"><i className="bx bxl-facebook"></i></Link>

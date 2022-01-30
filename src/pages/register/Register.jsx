@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./register.css";
+import { Container } from "react-bootstrap";
 
 export default function Register() {
   const [username, setUsername] = useState("");
@@ -24,7 +25,8 @@ export default function Register() {
     }
   };
   return (
-    <div className="register " style={{"backgroundColor":"#263238","color":"#F1A408"}}>
+    <Container fluid style={{"backgroundColor":"#263238"}}>
+ <div className="register " style={{"color":"#F1A408","margin":"60%"}}>
       <span className="registerTitle m-5 p-5">Register</span>
       <form className="registerForm" onSubmit={handleSubmit}>
         <label>Username</label>
@@ -52,12 +54,14 @@ export default function Register() {
           Register
         </button>
       </form>
-      <button className="registerLoginButton">
+      {/* <button className="registerLoginButton">
         <Link className="link" to="/login">
           Login
         </Link>
-      </button>
+      </button> */}
       {error && <span style={{color:"red", marginTop:"10px"}}>Something went wrong!</span>}
     </div>
+    </Container>
+   
   );
 }

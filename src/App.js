@@ -1,3 +1,4 @@
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/home/Home";
 import TopBar from "./components/topbar/TopBar";
 import Single from "./pages/single/Single";
@@ -17,7 +18,7 @@ import Dashboard from "./pages/admind/Dashboard";
 import AdminPost from "./pages/adminP/AdminPost";
 import AdminLogin from "./pages/adminLogin/AdminLogin";
 import { GuardProvider, GuardedRoute } from 'react-router-guards';
-
+ 
 const requireLogin = (to, from, next) => {
   const user = JSON.parse(localStorage.getItem("user"));
   if (to.meta.auth) {
