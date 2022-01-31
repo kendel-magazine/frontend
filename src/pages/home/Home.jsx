@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div style={{"backgroundColor":"#263238","color":"white"}}>
      
-    <section id="hero-no-slider" className="d-flex justify-cntent-center align-items-center" >
+    <section id="hero-no-slider" className="d-flex justify-cntent-center align-items-center" style={{"marginTop":"50px"}}>
       <div className="container position-relative" data-aos="fade-up" data-aos-delay="100">
         <div className="row justify-content-center">
           <div className="col-xl-8">
