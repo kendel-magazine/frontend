@@ -12,7 +12,7 @@ export default function Home() {
             <h1 className="d-sm-none d-md-block" style={{"fontSize":"350%"}}>Welcome !</h1>
             <p style={{"fontSize":"190%"}}>እንኳን ደህና መጡ !</p>
             <h2>ቅንድል ዲጂታል መፅሔት</h2>
-            <Link to="/megazines" className="btn-get-started " style={{"fontWeight":"bolder","fontSize":"100%"}}>ለመቀጠል ይጫኑ!</Link>
+            <a href="#main" className="btn-get-started " style={{"fontWeight":"bolder","fontSize":"100%"}}>ለመቀጠል ይጫኑ!</a>
           </div>
         </div>
       </div>
