@@ -103,7 +103,7 @@ function App() {
           <GuardedRoute path="/register" >{user ? <Home /> : <Register />}</GuardedRoute>
           <GuardedRoute path="/login">{user ? <Home /> : <Login />}</GuardedRoute>
           <GuardedRoute path="/write" meta={{ isUser: true }}>{user ? <Write /> : <Register />}</GuardedRoute>
-          <GuardedRoute path="/megazines" >{<Megazines />}</GuardedRoute>
+          <GuardedRoute path="/magazines" >{<Megazines />}</GuardedRoute>
           <GuardedRoute path="/contact" >{<Contact />}</GuardedRoute>
           <GuardedRoute path="/team">{<Team />}</GuardedRoute>
           <GuardedRoute path="/posts">{<Posts />}</GuardedRoute>

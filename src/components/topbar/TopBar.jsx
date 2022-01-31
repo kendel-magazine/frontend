@@ -89,8 +89,8 @@ export default function TopBar() {
               {/* <li><img src="../../public/images/logo.png"/></li> */}
                 <li><Link to="/" style={{ "hover": "#263238","backgroundColor": "transparent","color":"#F1A408","fontWeight":"bolder","fontSize":"16px" }}>Home</Link></li>
                 {/* <li><a href="services.html">Service</a></li> */}
-                <li> <Link to="/megazines" style={{ "hover": "#263238","backgroundColor": "transparent" ,"color":"#F1A408","fontWeight":"bolder","fontSize":"16px"}}>
-                  MEGAZINES
+                <li> <Link to="/magazines" style={{ "hover": "#263238","backgroundColor": "transparent" ,"color":"#F1A408","fontWeight":"bolder","fontSize":"16px"}}>
+                  MAGAZINES
                 </Link></li>
                 <li><Link to="/posts" style={{ "hover": "#263238","backgroundColor": "transparent","color":"#F1A408","fontWeight":"bolder","fontSize":"16px" }}>
                   POSTS

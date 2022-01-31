@@ -66,10 +66,10 @@ export default function Home() {
             <div className="icon-box icon-box-cyan" style={{"backgroundColor":"#F1A408"}}>
               <div className="icon"><i className="bx bx-file"></i></div>
               <h4 className="title" style={{"fontSize":"16px"}}><Link to="">Mission</Link></h4>
-              <p className="description" style={{"fontSize":"16px"}}>	Enabling youths to be reasonable and responsible </p>
-              <p className="description" style={{"fontSize":"16px"}}>	Producing writings that promote social togetherness, peace and values of the community </p>
-              <p className="description" style={{"fontSize":"16px"}}>	Promoting sincerity as the motive of human being </p>
-              <p className="description" style={{"fontSize":"16px"}}>	Creating positive impact on reachable technological & Social media outlets </p>
+              <p className="description" style={{"fontSize":"16px"}}>✔️	Enabling youths to be reasonable and responsible </p>
+              <p className="description" style={{"fontSize":"16px"}}>✔️	Producing writings that promote social togetherness, peace and values of the community </p>
+              <p className="description" style={{"fontSize":"16px"}}>✔️	Promoting sincerity as the motive of human being </p>
+              <p className="description" style={{"fontSize":"16px"}}>✔️	Creating positive impact on reachable technological & Social media outlets </p>
             </div>
           </div>
   
@@ -85,13 +85,13 @@ export default function Home() {
             <div className="icon-box icon-box-blue" style={{"backgroundColor":"#F1A408"}}>
               <div className="icon"><i className="bx bx-world"></i></div>
               <h4 className="title"><Link to="">Values</Link></h4>
-              <p className="description">	Sincerity
-	Rationality
-	Patriotism 
-	Reliability
-	Accountability
-	Inclusiveness
-	Achievement 
+              <p className="description">✔️Sincerity
+              ✔️	Rationality
+              ✔️	Patriotism 
+              ✔️  Reliability 
+              ✔️  Accountability 
+              ✔️  Inclusiveness 
+              ✔️	Achievement  
 </p>
             </div>
           </div>
