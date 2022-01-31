@@ -33,122 +33,160 @@ export default function Megazines(){
 
                     <div className="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
 
-                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-app">
-                            <div className="portfolio-item">
-                                <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-app mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m1.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
                                     {/* <i className="bx bx-plus"></i> */}
-                                        <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1" download>Download</a>
+                                        <a href="assets/img/portfolio/m1.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="App 1" download>Download</a>
                                         {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
-                            <div className="portfolio-item">
-                                <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-web mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m2.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
                                     {/* <i className="bx bx-plus"></i> */}
-                                        <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3" download>Download</a>
+                                        <a href="assets/img/portfolio/m2.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="Web 3" download>Download</a>
                                         {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-app">
-                            <div className="portfolio-item">
-                                <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-app mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m3.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
                                     {/* <i className="bx bx-plus"></i> */}
-                                        <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2" download>Download</a>
+                                        <a href="assets/img/portfolio/m3.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="App 2" download>Download</a>
                                         {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
-                            <div className="portfolio-item">
-                                <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-card mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m4.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
                                     {/* <i className="bx bx-plus"></i> */}
-                                        <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2" download>Download</a>
+                                        <a href="assets/img/portfolio/m4.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="Card 2" download>Download</a>
                                         {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
-                            <div className="portfolio-item">
-                                <img src="assets/img/portfolio/portfolio-5.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-web mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m5.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
                                     {/* <i className="bx bx-plus"></i> */}
-                                        <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2" download>Download</a>
+                                        <a href="assets/img/portfolio/m5.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="Web 2" download>Download</a>
                                         {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-app">
-                            <div className="portfolio-item">
-                                <img src="assets/img/portfolio/portfolio-6.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-app mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m6.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
                                     {/* <i className="bx bx-plus"></i> */}
-                                        <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3" download>Download</a>
+                                        <a href="assets/img/portfolio/m6.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="App 3" download>Download</a>
                                         {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
-                            <div className="portfolio-item">
-                                <img src="assets/img/portfolio/portfolio-7.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-card mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m7.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
                                     {/* <i className="bx bx-plus"></i> */}
-                                        <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1" download>Download</a>
+                                        <a href="assets/img/portfolio/m7.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="Card 1" download>Download</a>
                                         {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-card">
-                            <div className="portfolio-item">
-                                <img src="assets/img/portfolio/portfolio-8.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-card mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m8.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
                                     {/* <i className="bx bx-plus"></i> */}
-                                        <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3" download>Download</a>
+                                        <a href="assets/img/portfolio/m8.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="Card 3" download>Download</a>
                                         {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-web">
-                            <div className="portfolio-item">
-                                <img src="assets/img/portfolio/portfolio-9.jpg" className="img-fluid" alt="" />
-                                <div className="portfolio-info">
-                                    <div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-web mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m9.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
                                     {/* <i className="bx bx-plus"></i> */}
-                                        <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 1" download>Download</a>
+                                        <a href="assets/img/portfolio/m9.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="Web 1" download>Download</a>
                                         {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-web mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m10.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
+                                    {/* <i className="bx bx-plus"></i> */}
+                                        <a href="assets/img/portfolio/m10.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="Web 1" download>Download</a>
+                                        {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-web mb-5">
+                            <div>
+                                <img src="assets/img/portfolio/m11.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
+                                    {/* <i className="bx bx-plus"></i> */}
+                                        <a href="assets/img/portfolio/m11.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="Web 1" download>Download</a>
+                                        {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 portfolio-wrap filter-web mb-5">
+                            <div >
+                                <img src="assets/img/portfolio/m12.jpg" className="img-fluid" alt="" />
+                                <div>
+                                    <div className="btn btn-warning btn-block">
+                                    {/* <i className="bx bx-plus"></i> */}
+                                        <a href="assets/img/portfolio/m12.pdf" data-gallery="portfolioGallery" className="portfolio-lightbox text-white" title="Web 1" download>Download</a>
+                                        {/* <a href="portfolio-details.html" title="Portfolio Details"><i className="bx bx-link"></i></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
 
                     </div>
 
