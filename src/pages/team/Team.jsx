@@ -143,7 +143,7 @@ export default function Team() {
                             <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                                 <div className="member">
                                     <div className="member-img" style={{ height: "57%" }}>
-                                        <img src="assets/img/team/team-8.jpg" height={"220px"} width="400px" alt="" />
+                                        <img src="assets/img/team/team-8.jpg" height={"250px"} width="400px" alt="" />
                                         <div className="social">
                                             {/* <a href=""><i className="bi bi-twitter"></i></a> */}
                                             <a onClick={() => window.open("http://www.facebook.com/tinsae.awel", "_blank")}><i className="bi bi-facebook"></i></a>
