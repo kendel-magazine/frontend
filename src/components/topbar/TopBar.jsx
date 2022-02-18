@@ -3,7 +3,9 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import "./topbar.css";
-
+import 'bootstrap/dist/css/bootstrap.css'
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
+// import logo from "../../../public/images/kendel.png";
 
 export default function TopBar() {
   const { user, dispatch } = useContext(Context);
@@ -35,7 +37,7 @@ export default function TopBar() {
   //     }
   
   //     else{
-  //       $(".black").css("background" , "#333");  	
+  //       $(".black").css("background" , "#333");    
   //     }
   //   })
   // })
@@ -43,7 +45,6 @@ export default function TopBar() {
     <div>
       <div style={{ "backgroundColor": "black" }}>
         {/* <div class="loading">
-
 
         <div class="windows8 loading-position">
           <div class="wBall" id="wBall_1">
@@ -155,6 +156,7 @@ export default function TopBar() {
       </div>
     </div>
 
-
   );
 }
+
+
